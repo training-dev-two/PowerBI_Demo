@@ -1,0 +1,54 @@
+# Ignore Power BI local settings and cache files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Ignore Power BI temp and backup files
+*.pbix.temp
+*.pbit
+*.pbids
+*.cache
+
+# Ignore user-specific configuration files
+*.json
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*_Backup.*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden folders (optional)
+.pbids/
+
+# Ignore system-specific files (optional)
+.vscode/             # Visual Studio Code settings folder
+.idea/               # JetBrains IDE settings folder
+*.suo                # Solution user options file for Visual Studio
+*.user               # User-specific project files
+*.userosscache       # OSS cache files
+*.sln.docstates      # Solution document states
+*.ncb                # C++ intellisense database files
+*.obj                # Object files
+*.log                # Log files
+
+# Ignore temporary build files
+*.tmp
+*.temp
+*.bak
+
+# Ignore Node.js or NPM dependencies (if used)
+node_modules/
+
+# Ignore Python virtual environments (if used)
+venv/
+__pycache__/
+
+# Ignore macOS-specific files
+*.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
